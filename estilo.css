@@ -1,0 +1,92 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    font-size: 16px; /* Alterado para um tamanho mais comum */
+    color: rgb(158, 255, 242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Adicionada a fonte para todo o corpo do texto */
+}
+
+img {
+    display: block; /* Adicionado para garantir que a largura e a borda funcionem corretamente */
+    margin: 0 auto; /* Centralizar a imagem */
+    width: 350px;
+    max-width: 100%; /* Adicionado para garantir que a imagem não ultrapasse seu contêiner */
+    border-radius: 50%; /* Reduzido para 50% para criar um círculo com a imagem */
+}
+
+h1 {
+    font-size: 3em; /* Usando em para dimensionamento do texto */
+    color: rgb(0, 0, 0);
+    margin-top: 20px; /* Adicionado espaçamento superior */
+}
+
+h2 {
+    font-size: 1.5em; /* Usando em para dimensionamento do texto */
+    color: rgb(0, 0, 0);
+    margin-top: 10px; /* Adicionado espaçamento superior */
+}
+
+p {
+    font-size: 1em; /* Usando em para dimensionamento do texto */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 10px; /* Adicionado espaçamento superior */
+}
+
+footer {
+    padding: 50px; /* Reduzido para um espaçamento mais moderado */
+}
+
+div {
+   
+    font-size: 0.75em; /* Usando em para dimensionamento do texto */
+    padding: 10px; /* Reduzido o espaçamento interno */
+}
+
+a {
+    font-size: 1.5em; /* Usando em para dimensionamento do texto */
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Removendo sublinhado padrão */
+}
+
+h3 {
+    font-size: 1em; /* Usando em para dimensionamento do texto */
+    color: rgb(0, 0, 0);
+    margin-top: 10px; /* Adicionado espaçamento superior */
+}
+/* Reset de margem e padding para o body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Defina uma fonte desejada */
+    background: linear-gradient(to bottom right, #91fff9, #ffffff);
+    color: rgb(0, 0, 0); /* Cor do texto */
+  
+    font-size: 35px;
+     margin-bottom: 600px;
+     text-align: center;
+}
+
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: #000;
+    text-align: center;
+}
+
+a:visited {
+    color: rgb(0, 0, 0); /* Cor dos links visitados */
+    text-align: center;
+}
